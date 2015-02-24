@@ -1,0 +1,15 @@
+<% include ../_header %>
+<div class="main-con">
+  <form class='new_post' method='post' action='/posts'>
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input class="form-control" name="title"  placeholder="Title" />
+    </div>
+    <div class="form-group">
+      <label for="body">Body</label>
+       <textarea rows="8" class="form-control" name='body'></textarea>
+    </div>
+    <button type="submit" class="btn btn-default">Publish</button>
+  </form>
+</div>
+<% include ../_footer %>

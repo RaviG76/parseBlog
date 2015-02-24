@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "bapp"
+        }, 
+        "bapp": {
+            "applicationId": "OEjeKshzZfwVQv6q4xmOREWzVDOJPRYYt2WkaUib", 
+            "masterKey": "LLCj7aXIZk4wiDxON0ME8RqtAZ2tWHzVPMZIVxhE"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.5"
+    }
+}
